@@ -27,6 +27,11 @@
 
   <title>WorkTrack - Employee Time Tracking</title>
 
+  <!-- Material Icons (fixes missing icons on web build) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round|Material+Icons+Sharp|Material+Symbols+Outlined" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
@@ -43,7 +48,7 @@
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('flutter-first-frame', function () {
-      navigator.serviceWorker.register('flutter_service_worker.js?v=2899890512');
+      navigator.serviceWorker.register('flutter_service_worker.js?v=1048840576');
     });
   }
 </script>
